@@ -15,7 +15,8 @@ public class Variables {
      * */
 
         // 1. enter your code below...
-
+            int z = 2; int v = 4;
+            double q = 2;
         // uncomment line below to see result (delete //)
         //System.out.println("Сумма двух чисел равна: " + (z + y));
         // 2. enter your code below...
