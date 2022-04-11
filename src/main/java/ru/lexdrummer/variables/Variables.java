@@ -15,22 +15,28 @@ public class Variables {
      * */
 
         // 1. enter your code below...
-            int z = 2; int v = 4;
-            double q = 2;
+            byte z = 2; byte v = 4; // Change int on byte because i want to save program memory
+
         // uncomment line below to see result (delete //)
-        //System.out.println("Сумма двух чисел равна: " + (z + y));
+        System.out.println("Сумма двух чисел равна: " + (z + v));
         // 2. enter your code below...
-
+        double q;
+        q = 2.5;
+        double w;
+        w = 4.7;
         // uncomment line below to see result (delete //)
-        //System.out.println("Сумма двух вещественных чисел равна: " + (q + w));
+        System.out.println("Сумма двух вещественных чисел равна: " + (q + w));
         // 3. enter your code below...
-
+            byte i = 7; // Change int on byte because i want to save program memory
+            byte j = i;
         // uncomment line below to see result (delete //)
-        //System.out.println("I равно: " + i + "; J равно: " + j);
+        System.out.println("I равно: " + i + "; J равно: " + j);
 
         // 4. enter your code below...
-
+            int x = 1000;
+            char c = '~';
+            x = c;
         // uncomment line below to see result (delete //)
-        //System.out.println("Значение Х после присвоения значения из С равно: " + x);
+        System.out.println("Значение Х после присвоения значения из С равно: " + x);
     }
 }
