@@ -16,6 +16,7 @@ public class Loops {
 
         // 1. enter your code below..
 String a = "hello";
+int lol = 101;
         // 2. enter your code below...
 
     }
