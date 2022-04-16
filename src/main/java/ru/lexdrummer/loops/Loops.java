@@ -15,7 +15,7 @@ public class Loops {
         * */
 
         // 1. enter your code below..
-
+String a = "hello";
         // 2. enter your code below...
 
     }
