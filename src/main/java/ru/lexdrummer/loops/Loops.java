@@ -16,7 +16,7 @@ public class Loops {
 
         // 1. enter your code below..
 
-        // 2. enter your code below..
+        // 2. enter your code below...
 
     }
 }
