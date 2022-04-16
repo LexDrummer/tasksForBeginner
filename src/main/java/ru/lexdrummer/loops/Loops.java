@@ -1,5 +1,7 @@
 package main.java.ru.lexdrummer.loops;
 
+import java.util.Scanner;
+
 public class Loops {
 
     public static void main(String[] args) {
@@ -33,6 +35,28 @@ public class Loops {
             }
 
         // 3. enter your code below..
-
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введи число от 1 до 7, мраз");
+            int dayOfWeek = scanner.nextInt();
+            scanner.close();
+            String x;
+            switch (dayOfWeek){
+                case 1 : x = "Понедельник";
+                break;
+                case 2 : x = "Вторник";
+                break;
+                case 3 : x = "Среда";
+                break;
+                case 4 : x = "Четверг";
+                break;
+                case 5 : x = "Пятница";
+                break;
+                case 6 : x = "Суббота";
+                break;
+                case 7 : x = "Воскресенье";
+                break;
+                default:x="Неправильный номер дня";
+            }
+        System.out.println(x);
     }
 }
