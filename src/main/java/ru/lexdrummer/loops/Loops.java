@@ -1,5 +1,6 @@
 package main.java.ru.lexdrummer.loops;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Loops {
@@ -25,7 +26,7 @@ public class Loops {
         while (a + b <= 30) {   //f+king spelling
             System.out.println(a + b);
             a = a + 2;
-            b = b + 2;
+           b = b + 2;
         }
 
         // 2. enter your code below..
@@ -54,9 +55,29 @@ public class Loops {
                 case 6 : x = "Суббота";
                 break;
                 case 7 : x = "Воскресенье";
-                break;
+              break;
                 default:x="Неправильный номер дня";
             }
-        System.out.println(x);
+       System.out.println(x);
+
+        //System.out.println(new Greeter().sayGreeter());
+
+        //Scanner scanner = new Scanner(System.in);
+        System.out.println("Введи возраст");
+        int age = scanner.nextInt();
+        switch (age){
+            case 0 :
+                System.out.println("Ты родился");
+                break;
+            case 7 :
+                System.out.println("Ты пошел в школу");
+                break;
+            case 18 :
+                System.out.println("Ты закончил школу");
+                break;
+            default:
+                System.out.println("Ни один из вариантов не подходит, введи 0, 7, 18");
+        }
+
     }
 }
