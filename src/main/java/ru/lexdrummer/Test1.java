@@ -15,18 +15,17 @@ public class Test1 {
         int N = scanner.nextInt();
         scanner.skip("(\r\n|[\n\r\u2029\u0085])?");
         scanner.close();
-        while (true) {
 
-            if (N % 2 == 0 || ((N >= 2 && N <= 5) && N > 20)) {
-                System.out.println("Not weird");
-                break;
-            }
-
-            if (N % 2 != 0 || (N >= 6 && N <= 20)) {
+            if (N % 2 == 0) {
+                if (N >= 6 && N <= 20) {
+                System.out.println("Wierd");
+                } else {
+                    System.out.println("Not Wierd");
+                }
+            } else {
                     System.out.println("Weird");
-                    break;
             }
 
-        }
+
     }
 }
