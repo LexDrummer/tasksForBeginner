@@ -10,6 +10,8 @@ public class ClassesAndObjects12 {
         person2.name = "Морти";
         person2.age = 16;
         person2.speak();
+        person1.calculateYearsToRetirement();
+        person2.calculateYearsToRetirement();
     }
 
 }
@@ -17,8 +19,11 @@ public class ClassesAndObjects12 {
 class Person1{ // получает значения из класса main
     String name; // Данные
     int age; // Данные
-
-    void speak(){
+    void calculateYearsToRetirement(){
+        int years = 65-age;
+        System.out.println("Кол-во лет до пенсии: "+years);
+    }
+    void speak(){ // void - "ничто"
         for(int i = 0;i<3;i++) {
             System.out.println("Меня зовут " + name + ", " + "мне " + age + " лет" + " и лососни тунца.");
         }
