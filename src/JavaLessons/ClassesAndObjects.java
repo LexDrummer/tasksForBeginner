@@ -2,7 +2,7 @@ package JavaLessons;
 
 public class ClassesAndObjects {      // основной класс должен соответствовать названию файла, он только один
     public static void main(String[] args) { //
-        Person person1 = new Person();
+        Person person1 = new Person(); // Класс main обращается к классу Person и отправляет туда значения которые я ему задал
         person1.name = "Рик";
         person1.age = 50;
         System.out.println("Меня зовут "+person1.name+", "+"мне "+person1.age+" лет"+" и лососни тунца.");
@@ -13,7 +13,7 @@ public class ClassesAndObjects {      // основной класс долже�
     }
 
 }
-class Person{
+class Person{ // получает значения из класса main
     String name;
     int age;
 }
