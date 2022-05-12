@@ -1,6 +1,6 @@
 package JavaLessons;
 
-public class ClassesAndObjects {      // основной класс должен соответствовать названию файла, он только один
+public class ClassesAndObjects1 {      // основной класс должен соответствовать названию файла, он только один
     public static void main(String[] args) { //
         Person person1 = new Person(); // Класс main обращается к классу Person и отправляет туда значения которые я ему задал
         person1.name = "Рик";
