@@ -1,4 +1,4 @@
-package main.java.ru.lexdrummer;
+package Test_s;
 import java.io.*;
 import java.math.*;
 import java.security.*;

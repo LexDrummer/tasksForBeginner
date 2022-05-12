@@ -1,4 +1,4 @@
-package main.java.ru.lexdrummer;
+package JavaLessons;
 
 public class If {
     public static void main (String [] args) {

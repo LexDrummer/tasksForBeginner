@@ -1,4 +1,4 @@
-package main.java.ru.lexdrummer;
+package JavaLessons;
 
 import java.util.Scanner;
 

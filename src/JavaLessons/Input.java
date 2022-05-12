@@ -1,6 +1,5 @@
-package main.java.ru.lexdrummer;
+package JavaLessons;
 
-import java.io.InputStream;
 import java.util.Scanner;
 
 public class Input {
