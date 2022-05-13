@@ -3,7 +3,7 @@ package JavaLessons;
 public class ClassesAndObjects3 {
     public static void main(String[] args) { //
         Person2 person1 = new Person2();
-        person1.setName(""); // Проверяет ввели ли время
+        person1.setName(""); // Проверяет, ввели ли время
         person1.setAge(25); // Проверяет чтобы возраст был положительным
         System.out.println("Vivodim zna4enie v mein metode " + person1.getName());
         System.out.println("Vivodim zna4enie v mein metode " + person1.getAge());
